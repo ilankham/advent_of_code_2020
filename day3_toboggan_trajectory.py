@@ -64,7 +64,6 @@ number_of_trees = {
     for path in paths
 }
 
-
 # Calculate product of number of "trees" along each path for Part 2.
 print(
     f'Product of number of trees encountered along each path for Part 2: '

@@ -1,4 +1,4 @@
-""" Solutions for https://adventofcode.com/2020/day/6 """
+""" Solutions for https://adventofcode.com/2020/day/7 """
 
 # import modules used below.
 from collections import UserDict
