@@ -8,6 +8,7 @@ import re
 # Part 1: How many passwords in the provided data file are valid according to
 # their corresponding "policies"?
 
+
 # Compile regex for extracting "policy" rule components and passwords.
 # Note: Regex developed and validated using https://regexr.com
 day2_regex = re.compile(r'(\d+)-(\d+) (\w): (\w+)')
@@ -15,7 +16,7 @@ day2_regex = re.compile(r'(\d+)-(\d+) (\w): (\w+)')
 # Create data model for "policy" rule components and passwords.
 @dataclass
 class RuleComponentsAndPassword:
-    " Data Model for rule components and passwords read from data file"
+    """ Data Model for rule components and passwords read from data file """
     full_string: str
     min_times: int = field(init=False)
     max_times: int = field(init=False)
@@ -54,6 +55,7 @@ print(f'Number of valid passwords for Part 1: {number_of_valid_passwords}')
 # Part 2: How many passwords in the provided data file are valid according to
 # the alternate interpretation for their corresponding "policies"?
 
+
 # Count number of valid passwords for Part 2.
 number_of_valid_passwords = sum([v.is_valid_for_part2() for v in data_values])
-print(f'Number of valid passwords for Part 1: {number_of_valid_passwords}')
+print(f'Number of valid passwords for Part 2: {number_of_valid_passwords}')
