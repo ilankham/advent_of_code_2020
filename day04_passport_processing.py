@@ -49,7 +49,7 @@ class Passport(UserDict):
 # Read "passports" from data file.
 passports = []
 current_passport = Passport()
-with open('data/day4_passport_processing-data.txt') as fp:
+with open('data/day04_passport_processing-data.txt') as fp:
     for line in fp:
         if line == '\n':
             passports.append(current_passport)

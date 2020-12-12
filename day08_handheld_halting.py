@@ -63,7 +63,7 @@ class BootCode(UserList):
         return accumulator, log, line_number, current_instruction
 
 # Read boot code program from data file.
-boot_code = BootCode.from_file('data/day8_handheld_halting-data.txt')
+boot_code = BootCode.from_file('data/day08_handheld_halting-data.txt')
 
 # Find accumulator value for Part 1.
 result1, log1 = boot_code.execute_without_looping()

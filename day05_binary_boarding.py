@@ -29,7 +29,7 @@ class BoardingPass:
         self.seat_id = self.row * 8 + self.seat
 
 # Read "boarding passes" from data file.
-with open('data/day5_binary_boarding-data.txt') as fp:
+with open('data/day05_binary_boarding-data.txt') as fp:
     data_values = [BoardingPass(line.rstrip()) for line in fp]
 
 # Count number of valid "boarding passes" for Part 1.

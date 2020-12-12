@@ -41,7 +41,7 @@ class RuleComponentsAndPassword:
         return letter_at_min_position != letter_at_max_position
 
 # Read "policy" rule components and passwords from data file.
-with open('data/day2_password_philosophy-data.txt') as fp:
+with open('data/day02_password_philosophy-data.txt') as fp:
     data_values = [
         RuleComponentsAndPassword(line.rstrip())
         for line in fp

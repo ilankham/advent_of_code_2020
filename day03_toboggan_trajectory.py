@@ -36,7 +36,7 @@ class TobogganMap(UserList):
         return objects_along_path
 
 # Read "map" from data file.
-toboggan_map = TobogganMap.from_file('data/day3_toboggan_trajectory-data.txt')
+toboggan_map = TobogganMap.from_file('data/day03_toboggan_trajectory-data.txt')
 
 # Count number of "trees" for Part 1.
 print(

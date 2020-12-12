@@ -48,7 +48,7 @@ class CypherData(UserList):
         return None
 
 # Read boot code program from data file.
-cypher_data = CypherData.from_file('data/day9_encoding_error-data.txt')
+cypher_data = CypherData.from_file('data/day09_encoding_error-data.txt')
 
 # Find encryption flaw in cypher data for Part 1.
 line_in_file, flaw = cypher_data.find_encryption_flaw_for_part1(25)

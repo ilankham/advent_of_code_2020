@@ -67,7 +67,7 @@ class Rule(UserDict):
         return _search(starting_color)
 
 # Read "bag-containment rules" from data file.
-with open('data/day7_handy_haversacks-data.txt') as fp:
+with open('data/day07_handy_haversacks-data.txt') as fp:
     rules = {
         rule.name: rule
         for rule in [Rule(line.rstrip()) for line in fp if line != '']

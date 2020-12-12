@@ -29,7 +29,7 @@ class GroupResponses(UserDict):
 # Read "question group_responses" from data file.
 group_responses = []
 current_group = GroupResponses()
-with open('data/day6_custom_customs-data.txt') as fp:
+with open('data/day06_custom_customs-data.txt') as fp:
     for line in fp:
         if line == '\n':
             group_responses.append(current_group)
