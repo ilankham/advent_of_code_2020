@@ -6,7 +6,7 @@
 
 
 # Read positive integer values from data file.
-with open('data/day1_report_repair-data.txt') as fp:
+with open('data/day01_report_repair-data.txt') as fp:
     data_values = [int(line.rstrip()) for line in fp]
 
 # In order to minimize the number of comparisons needed, calculate 2020 - v
