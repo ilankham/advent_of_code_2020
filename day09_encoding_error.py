@@ -1,6 +1,5 @@
 """ Solutions for https://adventofcode.com/2020/day/9 """
 
-
 # import modules used below.
 from collections import UserList
 
@@ -47,7 +46,7 @@ class CypherData(UserList):
                     return values_window
         return None
 
-# Read boot code program from data file.
+# Read cypher data from data file.
 cypher_data = CypherData.from_file('data/day09_encoding_error-data.txt')
 
 # Find encryption flaw in cypher data for Part 1.
@@ -59,6 +58,7 @@ print(f'Value of encryption flaw for Part 1: {flaw}')
 
 # Part 2: What sequence of consecutive values in the data file add up to the
 # result obtained in Part 1?
+
 
 # Find encryption weakness in cypher data for Part 2.
 weak_sequence = cypher_data.find_encryption_weakness_for_part2(25)
