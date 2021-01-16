@@ -71,8 +71,8 @@ print(
 
 
 # Part 2: Using the parsing rules and messages in the provided data file, but
-# with Rule 8 modified to be 42+ and 11 modified to be 42+ 31+, how many
-# messages satisfy Rule 0 = 8 11?
+# with Rule 8 modified to be 42+ and 11 modified to recursively be 42 11 31,
+# how many messages satisfy Rule 0 = 8 11?
 
 
 # Find messages matching Rule 0 for Part 2.

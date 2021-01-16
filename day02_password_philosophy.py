@@ -10,7 +10,6 @@ import re
 
 
 # Compile regex for extracting "policy" rule components and passwords.
-# Note: Regex developed and validated using https://regexr.com
 day2_regex = re.compile(r'(\d+)-(\d+) (\w): (\w+)')
 
 # Create data model for "policy" rule components and passwords.
