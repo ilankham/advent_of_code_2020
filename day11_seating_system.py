@@ -74,7 +74,7 @@ class SeatMap(UserList):
         return iteration_count, updated_seatmap
 
 # Read "seat map" values from data file.
-seat_map = SeatMap.from_file('data/day11-seating_system-data.txt')
+seat_map = SeatMap.from_file('data/day11_seating_system-data.txt')
 
 # Find "seat map" equilibrium for Part 1.
 iterations1, equilibrium_map1 = seat_map.find_equilibrium(
